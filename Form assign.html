@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form assignment</title>
+    </head>
+    <body style="background-color: rgb(253, 246, 237);">
+        <form method="get" action="save.php">
+            <label>PARENT'S NAME</label>
+            <input type="text" name="parents name"/>
+            <p>
+            <table style="border:1px solid rgb(219, 216, 216);">
+                <tr>
+                    <tr><th>Bio</th></tr>  
+                    <td>GENTER:</td>                    
+                    <td><input type="radio" name="gender"/>Male</td>
+                    <td><input type="radio" name="gender"/>Female</td>
+                    <td colspan="2" text-align="left"><input type="radio" name="gender">Others</td>
+                </tr>
+                    <td>AGE:</td>
+                        <td><input type="radio" name="age"/>0-12 yrs</td>
+                        <td><input type="radio" name="age"/>13-19 yrs</td>
+                        <td><input type="radio" name="age"/>20-35 yrs</td>
+                        <td><input type="radio" name="age"/>>35 yrs</td>      
+                </tr>         
+            </table>
+        </p>
+            <p>
+            <table style="background-color: rgb(253, 246, 237); border:1px solid rgb(219, 216, 216);">
+                <tr>
+                    <th>Blood pressure</th>
+                </tr>
+                    <tr padding="70px">
+                    <td><label>Systolic (mmHg)</label>
+                        <input type="number" name="blood pressure"/>
+                    </td>
+                    <td>
+                        <lable>Diastolic (mmHg)</lable>
+                        <input type="number" name="diastolic"/>
+                    </td>
+                </tr>
+            </table>
+        </p>
+            <p>
+            <table style="border:1px solid rgb(219, 216, 216);">
+                    <tr>
+                        <th text-align="left">Body Mass Index</th>
+                    </tr>
+                    <tr >
+                    <td>                        
+                        <lable>Weight (kgs)</lable>
+                        <input type="number" name="weight"/>                
+                    </td>
+                    <td>                        
+                        <lable>Height (Metres)</lable>
+                        <input type="number" name="weight"/>              
+                    </td>
+                    </tr>
+            </table>
+        </p>
+    <p>
+            <table style="border:1px solid rgb(219, 216, 216); text-align: center;">
+                <td style=" padding-left: 100px;">
+                 <tr>
+                     <th text-align="left">Status</th>
+                    </tr>
+                     <tr>
+                     <td>
+                         <input type="submit" value="GENERATE" name="submit"/>
+                     </td>
+                     <td>
+                         <input type="reset" name="reset" value="CANCEL"/>
+                     </td>
+                 </tr>
+                </tr>
+            </td>
+            </table>
+    </p>
+            <textarea name="Comments" rows="10" cols="80">
+                
+            </textarea>
+
+        </form>
+    </body>
+</html>
